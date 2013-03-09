@@ -291,9 +291,9 @@ AVSessionPresetForUIVideoQuality (UIImagePickerControllerQualityType quality)
                  target: nil
                  action: nil]
                 autorelease],
-            [[[UIBarButtonItem alloc]
-                 initWithCustomView: info]
-                autorelease],
+//            [[[UIBarButtonItem alloc]
+//                 initWithCustomView: info]
+//                autorelease],
             nil];
     [controls addSubview: toolbar];
     [toolbar release];
